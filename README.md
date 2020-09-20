@@ -1,5 +1,5 @@
-# Github Pages - Dr Samuel Livingstone
-This is the repository of HTML lecture notes/research level tutorials of Dr Samuel Livingstone, Lecturer in Statistical Science at University College London.
+# Github Pages - Samuel Livingstone
+This is the repository of HTML lecture notes/research level tutorials of Samuel Livingstone, Lecturer in Statistical Science at University College London.
 
 ## Contents
 
