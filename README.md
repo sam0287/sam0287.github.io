@@ -1,4 +1,4 @@
-# Lecture Notes and tutorials repository - Samuel Livingstone
+# Lecture notes repository - Samuel Livingstone
 This is the repository of HTML lecture notes/research level tutorials of Samuel Livingstone, Lecturer in Statistical Science at University College London.
 
 ## Contents
