@@ -654,24 +654,15 @@ discrete/continuous?</li>
 <ul class="incremental">
 <li><p>This course is motivated by two seemingly abstract
 problems</p></li>
-<li><p><strong>The (<span class="math inline">\(\epsilon-\)</span>)Sampling Problem.</strong>
-Given a finite measure <span class="math inline">\(\pi_u\)</span> on
-<span class="math inline">\((E,\mathcal{E})\)</span>, generate a sample
-<span class="math display">\[
-X \sim \rho
-\]</span> such that <span class="math inline">\(\mathcal{D}(\rho,\pi)
-&lt;\epsilon\)</span>, where <span class="math inline">\(\pi(\cdot) :=
-\pi_u(\cdot)/\pi_u(E)\)</span> and <span class="math inline">\(\mathcal{D}\)</span> is a metric on the space of
-probability measures over <span class="math inline">\((E,\mathcal{E})\)</span></p></li>
-<li><p><strong>The (<span class="math inline">\(\epsilon-\)</span>)Integration Problem.</strong>
-Given the same <span class="math inline">\(\pi_u\)</span> and a function
-<span class="math inline">\(f \in L^1(\pi_u)\)</span>, and denoting
-<span class="math display">\[
-\pi(f) := \int f(x)\pi(dx),
-\]</span> with <span class="math inline">\(\pi\)</span> as above,
-compute <span class="math inline">\(\hat{\pi}(f)\)</span> such that
-<span class="math inline">\(\mathbb{E}|\hat{\pi}(f) - \pi(f)|^2
-&lt;\epsilon\)</span>.</p></li>
+<li><p><strong>The Sampling Problem.</strong> Given a finite measure
+<span class="math inline">\(\pi_u\)</span> on <span class="math inline">\((E,\mathcal{E})\)</span>, generate a sample <span class="math display">\[
+X \sim \pi
+\]</span> where <span class="math inline">\(\pi(\cdot) :=
+\pi_u(\cdot)/\pi_u(E)\)</span> is the normalised version of <span class="math inline">\(\pi_u\)</span>.</p></li>
+<li><p><strong>The Integration Problem.</strong> Given the same <span class="math inline">\(\pi_u\)</span> and a function <span class="math inline">\(f \in L^1(\pi_u)\)</span>, compute <span class="math display">\[
+\mathbb{E}_\pi[f] = \int f(x)\pi(dx),
+\]</span> with <span class="math inline">\(\pi\)</span> as above, to a
+desired degree of accuracy.</p></li>
 <li><p>These questions are ubiquitous in computational science
 (statistical physics, theoretical computer science, optimization,
 applied mathematics…)</p>
