@@ -11,4 +11,6 @@ This is the repository of HTML lecture notes/research level tutorials of Samuel 
 
 - [Lecture 1](https://sam0287.github.io/MCW_slides_lec1.html)
 - [Lecture 2](https://sam0287.github.io/MCW_slides_lec2.html)
+- [Lecture 3](https://sam0287.github.io/MCW_slides_lec3.html)
+- [Lecture 4](https://sam0287.github.io/MCW_slides_lec4.html)
 - [Exercises](https://sam0287.github.io/MCW_exercises.html)
